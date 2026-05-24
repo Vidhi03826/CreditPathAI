@@ -14,4 +14,7 @@ To automate loan recovery decision-making using data-driven insights.
 - React.js (later)
 
 ## Current Status
-Day 1: Project setup completed
+## Progress
+
+✅ Day 1: Project setup completed  
+✅ Day 2: Dataset understanding completed
