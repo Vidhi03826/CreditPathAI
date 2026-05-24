@@ -1,6 +1,6 @@
 # CreditPathAI
 
-CreditPathAI is a machine learning based system designed to predict loan default risk and recommend personalized recovery actions.
+CreditPathAI is a machine learning-based system designed to predict loan default risk and recommend personalized recovery actions.
 
 ## Objective
 To automate loan recovery decision-making using data-driven insights.
@@ -14,7 +14,5 @@ To automate loan recovery decision-making using data-driven insights.
 - React.js (later)
 
 ## Current Status
-## Progress
-
-✅ Day 1: Project setup completed  
+✅ Day 1: Project setup completed
 ✅ Day 2: Dataset understanding completed
