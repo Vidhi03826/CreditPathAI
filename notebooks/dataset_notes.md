@@ -51,3 +51,53 @@ Target distribution:
 - PAIDOFF = 300
 - COLLECTION = 100
 - COLLECTION_PAIDOFF = 100
+
+## Day 4 Cleaning Summary
+
+### Missing Values Found
+
+paid_off_time : 100 missing
+
+past_due_days : 300 missing
+
+### Cleaning Performed
+
+- Fixed "Bechalor" → "Bachelor"
+- Converted effective_date to datetime
+- Converted due_date to datetime
+- Filled missing values in past_due_days using mean imputation
+
+### Remaining Issues
+
+- paid_off_time still contains 100 missing values
+- Requires business analysis before handling
+
+### Output Dataset
+
+data/processed/cleaned_loan_data.csv
+
+## Day 5 EDA Findings
+
+Target Distribution:
+- PAIDOFF = 300
+- COLLECTION = 100
+- COLLECTION_PAIDOFF = 100
+
+Age:
+- Mean = 31.11
+- Median = 30
+- Range = 18–51
+
+Education:
+- college = 220
+- High School or Below = 209
+- Bachelor = 67
+- Master or Above = 4
+
+Correlation:
+- Principal ↔ terms = 0.534 (strongest observed relationship)
+
+Observations:
+- Most borrowers are young professionals.
+- Majority successfully repay loans.
+- No obvious age outliers detected.

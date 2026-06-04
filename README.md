@@ -17,3 +17,5 @@ To automate loan recovery decision-making using data-driven insights.
 ✅ Day 1: Project setup completed
 ✅ Day 2: Dataset understanding completed
 ✅ Day 3: Pandas Fundamentals and Exploration completed
+✅ Day 4: Data Cleaning and Preprocessing Completed
+✅ Day 5: Exploratory Data Analysis (EDA) Completed
