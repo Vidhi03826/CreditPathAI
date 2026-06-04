@@ -151,3 +151,18 @@ Concepts Learned:
 - Data Leakage
 - Bias vs Variance
 - Cross Validation
+
+## Day 8 Model Training
+
+Algorithm:
+- Logistic Regression
+
+Experiments:
+1. Baseline Logistic Regression
+2. Scaled + Balanced Logistic Regression
+
+Key Learnings:
+- Accuracy alone is misleading.
+- Class imbalance affects model behavior.
+- Feature scaling improves optimization.
+- Confusion Matrix provides deeper insight than accuracy.

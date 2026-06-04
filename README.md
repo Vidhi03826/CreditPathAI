@@ -21,3 +21,9 @@ To automate loan recovery decision-making using data-driven insights.
 ✅ Day 5: Exploratory Data Analysis (EDA) Completed
 ✅ Day 6: Feature Engineering Completed
 ✅ Day 7: Feature Selection and Train-Test Split Completed
+✅ Day 8: Logistic Regression Model Built
+
+Results:
+- Baseline Accuracy = 52%
+- Improved Logistic Regression = 44%
+- Learned importance of class imbalance and feature scaling.
