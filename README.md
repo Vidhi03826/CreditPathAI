@@ -20,3 +20,4 @@ To automate loan recovery decision-making using data-driven insights.
 ✅ Day 4: Data Cleaning and Preprocessing Completed
 ✅ Day 5: Exploratory Data Analysis (EDA) Completed
 ✅ Day 6: Feature Engineering Completed
+✅ Day 7: Feature Selection and Train-Test Split Completed

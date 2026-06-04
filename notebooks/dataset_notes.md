@@ -120,3 +120,34 @@ Observations:
 - Categorical variables encoded successfully.
 - Feature dataset saved.
 - Prepared for machine learning model training.
+
+## Day 7 ML Preparation
+
+Target Variable:
+- loan_status
+
+Training Data:
+- 400 records
+
+Testing Data:
+- 100 records
+
+Selected Features:
+- Principal
+- terms
+- effective_date
+- due_date
+- past_due_days
+- age
+- age_group
+- loan_term_category
+- loan_month
+- education_encoded
+- gender_encoded
+
+Concepts Learned:
+- Feature Selection
+- Train-Test Split
+- Data Leakage
+- Bias vs Variance
+- Cross Validation
