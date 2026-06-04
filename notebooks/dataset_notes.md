@@ -101,3 +101,22 @@ Observations:
 - Most borrowers are young professionals.
 - Majority successfully repay loans.
 - No obvious age outliers detected.
+## Day 6 Feature Engineering
+
+New Features Created:
+
+- age_group
+- loan_term_category
+- loan_month
+- education_encoded
+- gender_encoded
+
+Removed Features:
+
+- Loan_ID
+
+Observations:
+
+- Categorical variables encoded successfully.
+- Feature dataset saved.
+- Prepared for machine learning model training.

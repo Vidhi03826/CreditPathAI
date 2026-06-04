@@ -19,3 +19,4 @@ To automate loan recovery decision-making using data-driven insights.
 ✅ Day 3: Pandas Fundamentals and Exploration completed
 ✅ Day 4: Data Cleaning and Preprocessing Completed
 ✅ Day 5: Exploratory Data Analysis (EDA) Completed
+✅ Day 6: Feature Engineering Completed
