@@ -166,3 +166,19 @@ Key Learnings:
 - Class imbalance affects model behavior.
 - Feature scaling improves optimization.
 - Confusion Matrix provides deeper insight than accuracy.
+
+## Day 9 Tree-Based Models
+
+Algorithms:
+- Decision Tree
+- Random Forest
+
+Feature Importance:
+- age = 0.4385
+- terms = 0.2839
+- Principal = 0.1284
+
+Observations:
+- Age was the strongest predictor.
+- loan_month had zero importance.
+- Random Forest did not outperform Decision Tree on current features.
