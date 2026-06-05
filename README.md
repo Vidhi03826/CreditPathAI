@@ -27,3 +27,43 @@ Results:
 - Baseline Accuracy = 52%
 - Improved Logistic Regression = 44%
 - Learned importance of class imbalance and feature scaling.
+
+✅ Day 9: Decision Tree & Random Forest
+
+Models Built:
+- Decision Tree Classifier
+- Random Forest Classifier
+
+Concepts Learned:
+- Entropy
+- Gini Index
+- Information Gain
+- Feature Importance
+- Hyperparameter Tuning
+
+Results:
+- Decision Tree Accuracy = 46%
+- Random Forest Accuracy = 44%
+
+Key Finding:
+Age was the most important feature.
+Loan Month contributed almost no predictive value.
+
+✅ Day 10: Cross Validation & Hyperparameter Tuning
+
+Concepts:
+- K-Fold Cross Validation
+- GridSearchCV
+- Hyperparameter Tuning
+- Model Selection
+- Bias-Variance Tradeoff
+
+Results:
+- Average CV Score = 40.2%
+- Best Parameters:
+  - max_depth = 3
+  - min_samples_split = 5
+- Best Cross Validation Score = 58.8%
+
+Best Model:
+- Tuned Decision Tree

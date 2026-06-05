@@ -182,3 +182,21 @@ Observations:
 - Age was the strongest predictor.
 - loan_month had zero importance.
 - Random Forest did not outperform Decision Tree on current features.
+
+## Day 10 Model Optimization
+
+Cross Validation Scores:
+[0.36, 0.41, 0.42, 0.46, 0.36]
+
+Average:
+40.2%
+
+Best Hyperparameters:
+- max_depth = 3
+- min_samples_split = 5
+
+Best Score:
+58.8%
+
+Key Insight:
+Reducing model complexity improved generalization.
