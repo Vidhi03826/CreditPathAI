@@ -99,3 +99,22 @@ Artifacts:
 
 Prediction Example:
 Customer → PAIDOFF
+
+✅ Day 12: Flask API Deployment
+
+Concepts:
+- Flask
+- REST API
+- Routes
+- Endpoints
+- JSON Responses
+- Model Serving
+
+Endpoint:
+GET /predict
+
+Example:
+
+{
+  "prediction":"PAIDOFF"
+}
