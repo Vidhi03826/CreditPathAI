@@ -118,3 +118,29 @@ Example:
 {
   "prediction":"PAIDOFF"
 }
+
+## Day 13 - Web Application Interface
+
+Features Added:
+
+* HTML Frontend
+* User Input Form
+* Flask Template Rendering
+* Prediction Result Page
+* Frontend + Backend Integration
+
+Workflow:
+
+User Input
+→ Flask Backend
+→ ML Model
+→ Prediction
+→ Result Page
+
+Technologies:
+
+* HTML
+* CSS
+* Flask
+* Scikit-learn
+* Joblib
