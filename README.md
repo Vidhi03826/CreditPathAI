@@ -67,3 +67,35 @@ Results:
 
 Best Model:
 - Tuned Decision Tree
+
+✅ Day 11: Model Persistence & Inference
+
+Concepts:
+- Serialization
+- Joblib
+- Model Persistence
+- Inference Pipeline
+
+Artifacts:
+- credit_risk_model.pkl
+- label_encoder.pkl
+
+Key Learning:
+A trained model can be saved, loaded, and reused without retraining.
+
+✅ Day 11: Model Persistence & Inference
+
+Concepts Learned:
+- Serialization
+- Joblib
+- Model Saving
+- Model Loading
+- Inference Pipeline
+- Label Decoding
+
+Artifacts:
+- models/credit_risk_model.pkl
+- models/label_encoder.pkl
+
+Prediction Example:
+Customer → PAIDOFF

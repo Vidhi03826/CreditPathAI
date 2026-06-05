@@ -200,3 +200,36 @@ Best Score:
 
 Key Insight:
 Reducing model complexity improved generalization.
+
+## Day 11 Production ML Basics
+
+Best Model:
+- Tuned Decision Tree
+
+Saved Files:
+- credit_risk_model.pkl
+- label_encoder.pkl
+
+Concepts Learned:
+- Serialization
+- Joblib
+- Model Loading
+- Inference Pipeline
+
+## Day 11 Production Preparation
+
+Model Saved:
+- credit_risk_model.pkl
+
+Encoder Saved:
+- label_encoder.pkl
+
+Prediction Pipeline:
+Input Data
+→ Model
+→ Encoded Prediction
+→ Label Decoder
+→ Final Result
+
+Output Example:
+PAIDOFF
