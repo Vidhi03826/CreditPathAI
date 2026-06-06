@@ -206,3 +206,78 @@ Skills Demonstrated:
 * Explainable AI
 * Data Visualization
 * Business Interpretation
+
+## Day 16 - Advanced Model Evaluation
+
+Metrics Implemented:
+
+* Accuracy
+* Precision
+* Recall
+* F1 Score
+* Probability Predictions
+
+Concepts Learned:
+
+* ROC Curve
+* AUC Score
+* Class Imbalance
+* Cross Validation
+* Bias-Variance Tradeoff
+
+Results:
+
+Accuracy: 52%
+
+Precision: 27%
+
+Recall: 52%
+
+F1 Score: 35.6%
+
+Key Insights:
+
+* Accuracy alone is misleading.
+* Model favors majority class.
+* F1 Score provides a better evaluation.
+* Probability outputs improve explainability.
+
+Skills Demonstrated:
+
+* Advanced Evaluation
+* Explainable AI
+* Classification Metrics
+* Business Interpretation
+
+## Day 17 - Handling Class Imbalance
+
+Features Added:
+
+* Random Forest Classifier
+* Class Weighting
+* Cross Validation
+* Model Comparison
+
+Results:
+
+Accuracy: 38%
+
+Precision: 39%
+
+Recall: 38%
+
+F1 Score: 38%
+
+Key Insights:
+
+* Balanced learning reduced bias.
+* Precision improved significantly.
+* Cross validation provided reliable evaluation.
+* Accuracy alone is insufficient.
+
+Skills Demonstrated:
+
+* Model Improvement
+* Class Imbalance Handling
+* Cross Validation
+* Random Forest Training
