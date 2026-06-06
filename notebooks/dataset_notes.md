@@ -659,3 +659,79 @@ Business Insights ✅
 Interview Prep ✅
 
 DAY 15 COMPLETED SUCCESSFULLY
+
+======================================== DAY 16 - ADVANCED MODEL EVALUATION
+
+Objective:
+Learn industry-standard model evaluation techniques beyond accuracy.
+
+Concepts Covered:
+
+Accuracy
+Precision
+Recall
+F1 Score
+Probability Predictions
+Class Imbalance
+ROC Curve
+AUC
+Cross Validation
+Bias-Variance Tradeoff
+
+Results:
+
+Accuracy:
+0.52
+
+Precision:
+0.2704
+
+Recall:
+0.52
+
+F1 Score:
+0.3558
+
+Key Findings:
+
+Accuracy alone is insufficient.
+Precision is low.
+Recall is moderate.
+F1 Score indicates weak balance.
+Model favors majority class.
+
+Probability Analysis:
+
+COLLECTION 17.9%
+COLLECTION_PAIDOFF 16.7%
+PAIDOFF 65.3%
+
+Business Insights:
+
+Loan repayment class dominates predictions.
+Class imbalance affects model performance.
+Better balancing strategies are required.
+
+Advanced Concepts Learned:
+
+ROC Curve
+AUC Score
+Cross Validation
+Overfitting
+Underfitting
+Bias vs Variance
+Model Explainability
+
+Interview Topics Covered:
+
+Accuracy vs Precision
+Precision vs Recall
+F1 Score
+ROC Curve
+AUC
+Class Imbalance
+Overfitting
+Underfitting
+Cross Validation
+Explainable AI
+DAY 16 COMPLETED SUCCESSFULLY
