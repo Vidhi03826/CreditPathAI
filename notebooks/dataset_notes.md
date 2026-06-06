@@ -454,3 +454,208 @@ Frontend Integration  ✅
 Interview Prep        ✅
 
 # DAY 13 COMPLETED SUCCESSFULLY
+
+Objective:
+Transform the basic ML web application into a professional, production-style application.
+
+Concepts Learned:
+
+Bootstrap
+Jinja2 Templates
+Conditional Rendering
+Input Validation
+Exception Handling
+Bootstrap Components
+Professional UI Design
+Separation of Concerns
+
+Files Updated:
+
+templates/index.html
+templates/result.html
+src/day13_web_app.py
+
+Features Added:
+
+Bootstrap Styling
+Modern UI
+Responsive Design
+Better Forms
+Styled Buttons
+Separate Result Page
+result.html created
+Dynamic prediction display
+Conditional Rendering
+Green color for PAIDOFF
+Red color for COLLECTION
+Red color for COLLECTION_PAIDOFF
+Input Validation
+Age >= 18
+Principal > 0
+Terms > 0
+Exception Handling
+try-except blocks
+Graceful error messages
+Improved reliability
+Professional Result Card
+Bootstrap Card Component
+Center Alignment
+Styled Result Display
+
+Application Flow:
+
+User Input
+↓
+Validation
+↓
+Flask Backend
+↓
+Model Prediction
+↓
+Result Rendering
+↓
+Professional Result Page
+
+Production Concepts Learned:
+
+Input Validation
+Exception Handling
+Server-Side Rendering
+UI/UX Improvements
+Defensive Programming
+Separation of Concerns
+
+Interview Questions Covered:
+
+What is Bootstrap?
+What is Jinja2?
+What is Conditional Rendering?
+What is Input Validation?
+Why validate user input?
+What is Exception Handling?
+What is Defensive Programming?
+What is Server-Side Rendering?
+Why separate frontend and backend?
+Why use templates?
+
+Day 14 Status:
+
+Bootstrap UI ✅
+Jinja2 Templates ✅
+Conditional Rendering ✅
+Input Validation ✅
+Exception Handling ✅
+Result Card ✅
+Interview Prep ✅
+
+#DAY 14 COMPLETED SUCCESSFULLY
+
+======================================== DAY 15 - MODEL PERFORMANCE DASHBOARD
+
+Objective:
+Evaluate model performance using visualizations, feature importance analysis, and business insights.
+
+Concepts Learned:
+
+Model Evaluation
+Accuracy Comparison
+Feature Importance
+Confusion Matrix
+Heatmap Visualization
+Business Insights
+Explainable AI Basics
+Dashboard Thinking
+
+Files Created:
+
+src/day15_dashboard.py
+
+Visualizations Created:
+
+Accuracy Comparison Chart
+Feature Importance Chart
+Confusion Matrix Heatmap
+
+Models Compared:
+
+Logistic Regression
+Decision Tree
+
+Results:
+
+Logistic Regression Accuracy:
+0.44
+
+Decision Tree Accuracy:
+0.46
+
+Observation:
+Decision Tree performs slightly better than Logistic Regression.
+
+Feature Importance Findings:
+
+Most Important:
+
+Terms
+Age
+Principal
+
+Least Important:
+
+Loan Month
+Education
+Gender
+
+Business Insights:
+
+Loan duration strongly affects repayment behavior.
+Age influences repayment patterns.
+Principal amount contributes moderately.
+Education has limited impact in this dataset.
+
+Confusion Matrix Findings:
+
+Observation:
+Model predicts majority class frequently.
+
+Reason:
+Class imbalance exists in the dataset.
+
+Important Lesson:
+
+High Accuracy
+≠
+Good Model
+
+A confusion matrix provides deeper understanding than accuracy alone.
+
+Interview Topics Covered:
+
+Feature Importance
+Confusion Matrix
+Explainable AI
+Model Evaluation
+Business Insights
+Accuracy vs Interpretability
+Class Imbalance
+Data Visualization
+
+Industry Concepts Learned:
+
+Dashboard Design
+Explainability
+Model Monitoring
+Stakeholder Reporting
+Business Communication
+
+Day 15 Status:
+
+Accuracy Chart ✅
+Feature Importance ✅
+Feature Importance Plot ✅
+Confusion Matrix ✅
+Heatmap ✅
+Business Insights ✅
+Interview Prep ✅
+
+DAY 15 COMPLETED SUCCESSFULLY

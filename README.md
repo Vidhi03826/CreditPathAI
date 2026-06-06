@@ -144,3 +144,65 @@ Technologies:
 * Flask
 * Scikit-learn
 * Joblib
+
+## Day 14 - Professional Web Application
+
+Features Added:
+
+* Bootstrap UI
+* Responsive Forms
+* Dynamic Result Page
+* Input Validation
+* Error Handling
+* Conditional Rendering
+
+Validation Rules:
+
+* Age >= 18
+* Principal > 0
+* Terms > 0
+
+Technologies:
+
+* Flask
+* Bootstrap
+* Jinja2
+* Scikit-learn
+* Joblib
+
+Highlights:
+
+* Professional UI
+* Production Concepts
+* Defensive Programming
+* Better User Experience
+
+## Day 15 - Model Performance Dashboard
+
+Features Added:
+
+* Accuracy Comparison
+* Feature Importance Analysis
+* Confusion Matrix Visualization
+* Business Insights
+* Explainability Dashboard
+
+Visualizations:
+
+1. Logistic Regression vs Decision Tree Accuracy
+2. Feature Importance Bar Chart
+3. Confusion Matrix Heatmap
+
+Key Findings:
+
+* Decision Tree outperformed Logistic Regression.
+* Loan Terms are the strongest predictor.
+* Age significantly impacts repayment behavior.
+* Dataset shows class imbalance.
+
+Skills Demonstrated:
+
+* Model Evaluation
+* Explainable AI
+* Data Visualization
+* Business Interpretation
