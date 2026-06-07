@@ -1,0 +1,39 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 135-500-194
+INFO:werkzeug:127.0.0.1 - - [07/Jun/2026 11:50:29] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [07/Jun/2026 11:50:30] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:root:
+    Principal=1000.0,
+    Terms=56.0,
+    Age=26.0,
+    Education=0.0,
+    Gender=0.0,
+    Prediction=PAIDOFF
+    
+INFO:werkzeug:127.0.0.1 - - [07/Jun/2026 11:50:36] "POST /predict HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 135-500-194
+INFO:werkzeug:127.0.0.1 - - [07/Jun/2026 11:53:55] "[33mGET /health HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\you\\OneDrive\\Desktop\\CreditPathAI\\src\\day14_flask_app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 135-500-194
+INFO:werkzeug:127.0.0.1 - - [07/Jun/2026 11:54:11] "GET /health HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\you\\OneDrive\\Desktop\\CreditPathAI\\src\\day11_load_model.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 135-500-194
+INFO:werkzeug: * Detected change in 'C:\\Users\\you\\OneDrive\\Desktop\\CreditPathAI\\src\\day14_flask_app.py', reloading
+INFO:werkzeug: * Restarting with stat

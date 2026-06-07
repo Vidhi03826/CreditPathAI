@@ -1,7 +1,7 @@
 import joblib
 
-model = joblib.load(
-    "models/credit_risk_model.pkl"
+joblib.load(
+    "models/credit_risk_model_v1.pkl"
 )
 
 print(

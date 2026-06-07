@@ -6,16 +6,21 @@ from flask import (
 )
 import pandas as pd
 import joblib
+import logging
 
 # Create Flask App
 app = Flask(
     __name__,
     template_folder="../templates"
 )
+logging.basicConfig(
+    filename="logs/predictions.log",
+    level=logging.INFO
+)
 
 # Load Model Once
 model = joblib.load(
-    "models/credit_risk_model.pkl"
+    "models/credit_risk_model_v1.pkl"
 )
 
 encoder = joblib.load(
@@ -30,7 +35,13 @@ def home():
         "index.html"
     )
 
+@app.route("/health")
+def health():
 
+    return {
+        "status": "healthy",
+        "model": "loaded"
+    }
 # Prediction Route
 @app.route(
     "/predict",
@@ -114,6 +125,16 @@ def predict():
         result = encoder.inverse_transform(
             prediction
         )
+        logging.info(
+    f"""
+    Principal={principal},
+    Terms={terms},
+    Age={age},
+    Education={education},
+    Gender={gender},
+    Prediction={result[0]}
+    """
+)
 
         return render_template(
             "result.html",
@@ -122,18 +143,22 @@ def predict():
 
     except Exception as e:
 
-      return f"""
+    logging.error(
+        f"Prediction Error: {str(e)}"
+    )
 
-     <h2 style='color:red;'>
+    return f"""
 
-     Error:
-     {str(e)}
+    <h2 style='color:red;'>
 
-     </h2>
+    Error:
+    {str(e)}
 
-     <a href='/'>
-     Go Back
-     </a>
+    </h2>
+
+    <a href='/'>
+    Go Back
+    </a>
 
     """
 
