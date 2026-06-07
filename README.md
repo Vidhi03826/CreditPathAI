@@ -229,7 +229,7 @@ CreditPathAI
 
 Clone the repository:
 
-git clone <repository-url>
+[git clone <repository-url>](https://github.com/Vidhi03826/CreditPathAI)
 
 Move into the project folder:
 
