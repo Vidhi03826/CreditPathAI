@@ -548,7 +548,7 @@ Exception Handling ✅
 Result Card ✅
 Interview Prep ✅
 
-#DAY 14 COMPLETED SUCCESSFULLY
+# DAY 14 COMPLETED SUCCESSFULLY
 
 ======================================== DAY 15 - MODEL PERFORMANCE DASHBOARD
 
@@ -658,9 +658,9 @@ Heatmap ✅
 Business Insights ✅
 Interview Prep ✅
 
-DAY 15 COMPLETED SUCCESSFULLY
+# DAY 15 COMPLETED SUCCESSFULLY
 
-======================================== DAY 16 - ADVANCED MODEL EVALUATION
+======================================== # DAY 16 ADVANCED MODEL EVALUATION
 
 Objective:
 Learn industry-standard model evaluation techniques beyond accuracy.
@@ -734,4 +734,281 @@ Overfitting
 Underfitting
 Cross Validation
 Explainable AI
-DAY 16 COMPLETED SUCCESSFULLY
+# DAY 16 COMPLETED SUCCESSFULLY
+
+======================================== DAY 17 - MODEL IMPROVEMENT & CLASS IMBALANCE
+
+Objective:
+Improve model fairness and learn techniques for handling imbalanced datasets.
+
+Concepts Learned:
+
+Class Imbalance
+Class Weighting
+Random Forest
+Cross Validation
+Model Comparison
+Model Stability
+
+File Created:
+
+src/day17_balanced_model.py
+
+Techniques Applied:
+
+Random Forest Classifier
+class_weight="balanced"
+Cross Validation
+
+Results:
+
+Day 16:
+
+Accuracy = 0.52
+Precision = 0.27
+Recall = 0.52
+F1 Score = 0.356
+
+Day 17:
+
+Accuracy = 0.38
+Precision = 0.39
+Recall = 0.38
+F1 Score = 0.384
+
+Observations:
+
+Accuracy decreased.
+Precision improved significantly.
+F1 score improved.
+Model became less biased toward majority class.
+
+Cross Validation:
+
+Scores:
+
+0.34
+0.29
+0.34
+0.29
+0.36
+
+Average Score:
+
+0.324
+
+Key Lesson:
+
+Higher Accuracy
+≠
+Better Model
+
+Balanced models often provide better business value.
+
+Industry Concepts Learned:
+
+Class Weighting
+Fair Learning
+Cross Validation
+Model Stability
+Bias Reduction
+
+Interview Questions Covered:
+
+What is Class Imbalance?
+What is Class Weighting?
+Why can Accuracy decrease after balancing?
+What is Random Forest?
+What is Cross Validation?
+Why compare multiple models?
+What is Model Stability?
+# DAY 17 COMPLETED SUCCESSFULLY
+
+========================================
+DAY 18 - FEATURE SELECTION
+========================================
+
+Objective:
+Learn how feature selection affects model performance.
+
+Concepts Learned:
+
+1. Correlation Analysis
+2. Correlation Heatmaps
+3. Feature Selection
+4. Feature Importance
+5. Feature Interaction
+6. Curse of Dimensionality
+
+Results:
+
+All Features Accuracy:
+0.44
+
+Selected Features Accuracy:
+0.40
+
+Feature Importance:
+
+Age:
+0.798
+
+Terms:
+0.123
+
+Principal:
+0.079
+
+Key Findings:
+
+- Age is the most important feature.
+- Removing features reduced accuracy.
+- Weak features may still contribute through interaction.
+- Feature selection should be validated experimentally.
+
+Correlation Findings:
+
+Principal ↔ Terms:
+0.53
+
+Moderate positive relationship.
+
+Interview Topics Covered:
+
+- Feature Selection
+- Correlation
+- Feature Importance
+- Feature Interaction
+- Curse of Dimensionality
+
+# DAY 18 COMPLETED SUCCESSFULLY
+========================================
+======================================== DAY 21 - ADVANCED MODEL EVALUATION
+
+Objective:
+Perform advanced evaluation and visualization of machine learning models.
+
+Concepts Learned:
+
+Confusion Matrix
+Confusion Matrix Heatmap
+Feature Importance
+Model Comparison
+ROC Curve Theory
+AUC Score Theory
+Precision-Recall Tradeoff
+
+Results:
+
+Accuracy:
+0.44
+
+Feature Importance:
+
+Age:
+0.6628
+
+Education:
+0.1321
+
+Terms:
+0.1004
+
+Principal:
+0.0615
+
+Gender:
+0.0433
+
+Loan Month:
+0.0000
+
+Key Findings:
+
+Age is the strongest predictor.
+Loan Month contributes no predictive value.
+The model is biased toward the PAIDOFF class.
+Class imbalance affects performance.
+Data quality is the main limitation.
+
+Interview Topics Covered:
+
+ROC
+AUC
+Precision
+Recall
+F1 Score
+Confusion Matrix
+Feature Importance
+# DAY 21 COMPLETED SUCCESSFULLY
+
+http://127.0.0.1:5000/health -- Halth prediction
+========================================
+DAY 22 - PRODUCTION READINESS
+========================================
+
+Concepts Learned:
+
+1. Prediction Logging
+2. Health Endpoint
+3. Model Versioning
+4. Error Handling
+5. Production Folder Structure
+
+Features Implemented:
+
+- logs/predictions.log
+- /health endpoint
+- credit_risk_model_v1.pkl
+- Error Logging
+- Organized Project Structure
+
+Key Learnings:
+
+- Production systems require monitoring.
+- Logs are essential for debugging.
+- Models should be versioned.
+- Applications should fail gracefully.
+- Folder structure improves maintainability.
+
+Interview Topics:
+
+- Logging
+- Health Checks
+- Monitoring
+- Versioning
+- Error Handling
+
+# DAY 22 COMPLETED SUCCESSFULLY
+
+========================================
+DAY 23 - PORTFOLIO POLISH
+========================================
+
+Concepts Learned:
+
+1. Project Documentation
+2. GitHub Presentation
+3. Resume Integration
+4. Architecture Explanation
+5. Project Storytelling
+
+Deliverables:
+
+- Professional README
+- Screenshots
+- Architecture Diagram
+- Resume Description
+- Interview Preparation
+
+Key Learnings:
+
+- Technical skills are important.
+- Presentation is equally important.
+- Recruiters spend limited time reviewing projects.
+- Clear documentation increases project value.
+
+DAY 23 COMPLETED SUCCESSFULLY
+========================================
+
+
