@@ -7,6 +7,7 @@ from flask import (
 import pandas as pd
 import joblib
 import logging
+print("FLASK FILE STARTED")
 
 # Create Flask App
 app = Flask(
@@ -118,6 +119,7 @@ def predict():
         "gender_encoded": [gender]
 
     })
+
     try:
 
         prediction = model.predict(sample)
@@ -125,16 +127,17 @@ def predict():
         result = encoder.inverse_transform(
             prediction
         )
+
         logging.info(
-    f"""
-    Principal={principal},
-    Terms={terms},
-    Age={age},
-    Education={education},
-    Gender={gender},
-    Prediction={result[0]}
-    """
-)
+            f"""
+            Principal={principal},
+            Terms={terms},
+            Age={age},
+            Education={education},
+            Gender={gender},
+            Prediction={result[0]}
+            """
+        )
 
         return render_template(
             "result.html",
@@ -143,25 +146,25 @@ def predict():
 
     except Exception as e:
 
-    logging.error(
-        f"Prediction Error: {str(e)}"
-    )
+        logging.error(
+            f"Prediction Error: {str(e)}"
+        )
 
-    return f"""
+        return f"""
 
-    <h2 style='color:red;'>
+        <h2 style='color:red;'>
 
-    Error:
-    {str(e)}
+        Error:
+        {str(e)}
 
-    </h2>
+        </h2>
 
-    <a href='/'>
-    Go Back
-    </a>
+        <a href='/'>
+        Go Back
+        </a>
 
-    """
-
+        """
+    
 if __name__ == "__main__":
 
-    app.run(debug=True)
+     app.run(debug=True)
