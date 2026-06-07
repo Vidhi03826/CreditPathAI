@@ -1,283 +1,283 @@
 # CreditPathAI
 
-CreditPathAI is a machine learning-based system designed to predict loan default risk and recommend personalized recovery actions.
+Machine Learning Based Credit Risk Prediction System
 
-## Objective
-To automate loan recovery decision-making using data-driven insights.
+## Overview
+
+CreditPathAI is an end-to-end Machine Learning project that predicts loan repayment outcomes using historical credit data.
+
+The project covers the complete ML lifecycle:
+
+- Data Cleaning
+- Exploratory Data Analysis (EDA)
+- Feature Engineering
+- Model Training
+- Model Evaluation
+- Flask Deployment
+- Production Readiness Concepts
+
+The objective is to assist financial institutions in assessing loan repayment risk and making better lending decisions.
+
+---
+
+## Features
+
+- Credit Risk Prediction
+- Data Cleaning Pipeline
+- Exploratory Data Analysis
+- Feature Engineering
+- Logistic Regression
+- Decision Tree
+- Random Forest
+- Hyperparameter Tuning
+- Cross Validation
+- Feature Selection
+- Confusion Matrix Analysis
+- Feature Importance Analysis
+- Flask Web Application
+- Prediction Logging
+- Health Monitoring Endpoint
+- Model Versioning
+- Error Handling
+
+---
 
 ## Tech Stack
+
+### Machine Learning
+
 - Python
 - Pandas
 - NumPy
-- Scikit-learn
-- FastAPI (later)
-- React.js (later)
+- Scikit-Learn
 
-## Current Status
-✅ Day 1: Project setup completed
-✅ Day 2: Dataset understanding completed
-✅ Day 3: Pandas Fundamentals and Exploration completed
-✅ Day 4: Data Cleaning and Preprocessing Completed
-✅ Day 5: Exploratory Data Analysis (EDA) Completed
-✅ Day 6: Feature Engineering Completed
-✅ Day 7: Feature Selection and Train-Test Split Completed
-✅ Day 8: Logistic Regression Model Built
+### Visualization
 
-Results:
-- Baseline Accuracy = 52%
-- Improved Logistic Regression = 44%
-- Learned importance of class imbalance and feature scaling.
+- Matplotlib
+- Seaborn
 
-✅ Day 9: Decision Tree & Random Forest
+### Deployment
 
-Models Built:
-- Decision Tree Classifier
-- Random Forest Classifier
-
-Concepts Learned:
-- Entropy
-- Gini Index
-- Information Gain
-- Feature Importance
-- Hyperparameter Tuning
-
-Results:
-- Decision Tree Accuracy = 46%
-- Random Forest Accuracy = 44%
-
-Key Finding:
-Age was the most important feature.
-Loan Month contributed almost no predictive value.
-
-✅ Day 10: Cross Validation & Hyperparameter Tuning
-
-Concepts:
-- K-Fold Cross Validation
-- GridSearchCV
-- Hyperparameter Tuning
-- Model Selection
-- Bias-Variance Tradeoff
-
-Results:
-- Average CV Score = 40.2%
-- Best Parameters:
-  - max_depth = 3
-  - min_samples_split = 5
-- Best Cross Validation Score = 58.8%
-
-Best Model:
-- Tuned Decision Tree
-
-✅ Day 11: Model Persistence & Inference
-
-Concepts:
-- Serialization
-- Joblib
-- Model Persistence
-- Inference Pipeline
-
-Artifacts:
-- credit_risk_model.pkl
-- label_encoder.pkl
-
-Key Learning:
-A trained model can be saved, loaded, and reused without retraining.
-
-✅ Day 11: Model Persistence & Inference
-
-Concepts Learned:
-- Serialization
-- Joblib
-- Model Saving
-- Model Loading
-- Inference Pipeline
-- Label Decoding
-
-Artifacts:
-- models/credit_risk_model.pkl
-- models/label_encoder.pkl
-
-Prediction Example:
-Customer → PAIDOFF
-
-✅ Day 12: Flask API Deployment
-
-Concepts:
 - Flask
-- REST API
-- Routes
-- Endpoints
-- JSON Responses
-- Model Serving
+- HTML
+- Bootstrap
+
+### Utilities
+
+- Joblib
+
+---
+
+## Project Architecture
+
+User
+↓
+Web Interface (HTML + Bootstrap)
+↓
+Flask Application
+↓
+Random Forest Model
+↓
+Prediction
+↓
+Result Display
+
+---
+
+## Machine Learning Pipeline
+
+1. Data Collection
+2. Data Cleaning
+3. Exploratory Data Analysis
+4. Feature Engineering
+5. Train-Test Split
+6. Model Training
+7. Model Evaluation
+8. Feature Selection
+9. Model Persistence
+10. Deployment
+
+---
+
+## Models Implemented
+
+### Logistic Regression
+
+- Baseline Model
+- Simple and Interpretable
+
+### Decision Tree
+
+- Handles Non-Linear Relationships
+- Easy to Visualize
+
+### Random Forest
+
+- Ensemble Learning Technique
+- Better Generalization
+- Reduced Overfitting
+
+---
+
+## Evaluation Metrics
+python src/day21_advanced_evaluation.py
+
+The project evaluates models using:
+
+- Accuracy
+- Precision
+- Recall
+- F1 Score
+- Cross Validation
+- Confusion Matrix
+- Feature Importance
+
+---
+
+## Results
+
+### Best Model Performance
+
+Accuracy: 44%
+
+### Key Findings
+
+- Age is the strongest predictive feature.
+- Loan Month contributes minimal predictive value.
+- Dataset imbalance affects model performance.
+- Random Forest provides stable predictions.
+
+---
+
+## Production Features
+
+### Prediction Logging
+
+Every prediction is stored in:
+
+logs/predictions.log
+
+### Health Monitoring Endpoint
 
 Endpoint:
-GET /predict
 
-Example:
+/health
+
+Returns:
 
 {
-  "prediction":"PAIDOFF"
+  "status": "healthy",
+  "model": "loaded"
 }
 
-## Day 13 - Web Application Interface
+### Model Versioning
 
-Features Added:
+Current Model:
 
-* HTML Frontend
-* User Input Form
-* Flask Template Rendering
-* Prediction Result Page
-* Frontend + Backend Integration
+credit_risk_model_v1.pkl
 
-Workflow:
+### Error Handling
 
-User Input
-→ Flask Backend
-→ ML Model
-→ Prediction
-→ Result Page
+Graceful exception handling prevents application crashes.
 
-Technologies:
+---
 
-* HTML
-* CSS
-* Flask
-* Scikit-learn
-* Joblib
+## Project Structure
 
-## Day 14 - Professional Web Application
+CreditPathAI
 
-Features Added:
+├── data/
 
-* Bootstrap UI
-* Responsive Forms
-* Dynamic Result Page
-* Input Validation
-* Error Handling
-* Conditional Rendering
+├── models/
 
-Validation Rules:
+├── logs/
 
-* Age >= 18
-* Principal > 0
-* Terms > 0
+├── screenshots/
 
-Technologies:
+├── src/
 
-* Flask
-* Bootstrap
-* Jinja2
-* Scikit-learn
-* Joblib
+├── templates/
 
-Highlights:
+├── requirements.txt
 
-* Professional UI
-* Production Concepts
-* Defensive Programming
-* Better User Experience
+└── README.md
 
-## Day 15 - Model Performance Dashboard
+---
 
-Features Added:
+## Screenshots
 
-* Accuracy Comparison
-* Feature Importance Analysis
-* Confusion Matrix Visualization
-* Business Insights
-* Explainability Dashboard
+### Home Page
 
-Visualizations:
+![Home](screenshots/home.png)
 
-1. Logistic Regression vs Decision Tree Accuracy
-2. Feature Importance Bar Chart
-3. Confusion Matrix Heatmap
+### Prediction Result
 
-Key Findings:
+![Result](screenshots/result.png)
 
-* Decision Tree outperformed Logistic Regression.
-* Loan Terms are the strongest predictor.
-* Age significantly impacts repayment behavior.
-* Dataset shows class imbalance.
+### Confusion Matrix
 
-Skills Demonstrated:
+![Confusion Matrix](screenshots/confusion_matrix.png)
 
-* Model Evaluation
-* Explainable AI
-* Data Visualization
-* Business Interpretation
+### Feature Importance
 
-## Day 16 - Advanced Model Evaluation
+![Feature Importance](screenshots/feature_importance.png)
 
-Metrics Implemented:
+### Model Comparison
 
-* Accuracy
-* Precision
-* Recall
-* F1 Score
-* Probability Predictions
+![Model Comparison](screenshots/model_comparison.png)
+## Installation
 
-Concepts Learned:
+Clone the repository:
 
-* ROC Curve
-* AUC Score
-* Class Imbalance
-* Cross Validation
-* Bias-Variance Tradeoff
+git clone <repository-url>
 
-Results:
+Move into the project folder:
 
-Accuracy: 52%
+cd CreditPathAI
 
-Precision: 27%
+Install dependencies:
 
-Recall: 52%
+pip install -r requirements.txt
 
-F1 Score: 35.6%
+Run the Flask application:
 
-Key Insights:
+python src/day14_flask_app.py
 
-* Accuracy alone is misleading.
-* Model favors majority class.
-* F1 Score provides a better evaluation.
-* Probability outputs improve explainability.
+Open:
 
-Skills Demonstrated:
+http://127.0.0.1:5000
 
-* Advanced Evaluation
-* Explainable AI
-* Classification Metrics
-* Business Interpretation
+---
 
-## Day 17 - Handling Class Imbalance
+## Learning Outcomes
 
-Features Added:
+Through this project I learned:
 
-* Random Forest Classifier
-* Class Weighting
-* Cross Validation
-* Model Comparison
+- Data Cleaning
+- Data Analysis
+- Feature Engineering
+- Model Training
+- Model Evaluation
+- Feature Selection
+- Flask Deployment
+- Production ML Concepts
+- Logging and Monitoring
+- Model Versioning
 
-Results:
+---
 
-Accuracy: 38%
+## Future Improvements
 
-Precision: 39%
+- Larger Dataset
+- Better Feature Engineering
+- ROC-AUC Evaluation
+- Improved Model Performance
+- Enhanced Dashboard
 
-Recall: 38%
+---
 
-F1 Score: 38%
+## Author
 
-Key Insights:
+Vidhi Nema
 
-* Balanced learning reduced bias.
-* Precision improved significantly.
-* Cross validation provided reliable evaluation.
-* Accuracy alone is insufficient.
-
-Skills Demonstrated:
-
-* Model Improvement
-* Class Imbalance Handling
-* Cross Validation
-* Random Forest Training
+Machine Learning | AI | Software Development
